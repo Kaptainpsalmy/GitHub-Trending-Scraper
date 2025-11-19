@@ -1,0 +1,30 @@
+2025-11-19 12:41:14,382 - github_trending_scraper - INFO - Starting GitHub Trending scrape (range: daily, language: all)
+2025-11-19 12:41:35,329 - github_trending_scraper - ERROR - Scraping failed: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+Traceback (most recent call last):
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\scraper\runner.py", line 99, in main
+    repos = Parser.parse_trending(html, scraped_at)
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\scraper\parser.py", line 27, in parse_trending
+    soup = BeautifulSoup(html, "lxml")
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\.venv\Lib\site-packages\bs4\__init__.py", line 366, in __init__
+    raise FeatureNotFound(
+    ...<3 lines>...
+    )
+bs4.exceptions.FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-11-19 15:56:47,533 - github_trending_scraper - INFO - Starting GitHub Trending scrape (range: daily, language: all)
+2025-11-19 15:56:51,503 - github_trending_scraper - ERROR - Scraping failed: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+Traceback (most recent call last):
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\scraper\runner.py", line 99, in main
+    repos = Parser.parse_trending(html, scraped_at)
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\scraper\parser.py", line 27, in parse_trending
+    soup = BeautifulSoup(html, "lxml")
+  File "C:\Users\Samuel\Desktop\kwp\github-trending-scraper\.venv\Lib\site-packages\bs4\__init__.py", line 366, in __init__
+    raise FeatureNotFound(
+    ...<3 lines>...
+    )
+bs4.exceptions.FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-11-19 16:15:29,312 - github_trending_scraper - INFO - Starting GitHub Trending scrape (range: daily, language: all)
+2025-11-19 16:15:33,104 - github_trending_scraper - INFO - Successfully scraped and stored 18 repositories
+2025-11-19 16:15:37,357 - github_trending_scraper - INFO - Starting GitHub Trending scrape (range: daily, language: all)
+2025-11-19 16:15:39,840 - github_trending_scraper - INFO - Successfully scraped and stored 18 repositories
+2025-11-19 16:30:27,054 - github_trending_scraper - INFO - Starting GitHub Trending scrape (range: daily, language: all)
+2025-11-19 16:30:32,877 - github_trending_scraper - INFO - Successfully scraped and stored 18 repositories
